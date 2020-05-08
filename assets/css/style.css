@@ -22,10 +22,9 @@ body{
 }
 
 
-.alert .btn-danger {
+.alert .btn {
   float: right;
 }
-
 .alert span {
   line-height: 34px;
   float:left;
