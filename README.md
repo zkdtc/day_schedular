@@ -1,3 +1,2 @@
-# Code Quiz
- This code quiz will throw a series of questions to you one by one, and you choose your answer to these questions. If you answered correctly, your time budget will increase by 5. Otherwise, your time budget will decrease by 5. When you have finished all the questions or the time is out, game is over, and you could enter your initials. The score board will be displayed afterward.  
-
+# Day Planner
+  This is a fancy day planner you want to use. It shows a clock to remind you what time it is now. You could input the tasks you want to finish for each 1hr block, and save it using the 'save' buttons. The planned tasks will remain even after refreshing the webpage. The block showing the current task is in red color, the blocks showing tasks in the past are in yellow, and the future tasks are in green. Enjoy~
