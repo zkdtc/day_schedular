@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <div class="background-image">
+    <div class="hero-circle">
+      <div class="hero-face">
+        <div id="hour" class="hero-hour" style="transform: rotate(417.742deg);"></div>
+        <div id="minute" class="hero-minute" style="transform: rotate(332.9deg);"></div>
+        <div id="second" class="hero-second" style="transform: rotate(174deg);"></div>
+      </div>
+    </div>
+    <title>Day Schedular</title>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+  <script src="https://momentjs.com/downloads/moment.min.js"></script>
+</head>
+
+<body>
+
+  <div class="background-image" stule="height:90%;">
+    <div class="alert alert-light text-center" role="alert">
+      <h1 id="header_this">Day Schedular</h1>
+    </div>
+    <div class="container text-center">
+      <div class="row">
+        <div id='9' class="alert alert-success" role='alert' style='width:100%;margin-bottom:0;'>
+          <span class="text-center" style="width:10%;margin-top:1%;"><strong>9AM</strong></span>
+          <input type="text" class="form-control" id="usr" style="width:70%;">
+          <p index='9' class="btn btn-danger" style="width:10%;margin-top:1%;">Save</p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:0;">
+        <div  id='10' class="alert alert-success" role='alert' style='width:100%;margin-bottom:0;'>
+          <span class="text-center" style="width:10%;margin-top:1%;"><strong>10AM</strong></span>
+          <input type="text" class="form-control" id="usr" style="width:70%;">
+          <p index='10' class="btn btn-danger" style="width:10%;margin-top:1%;">Save</p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:0;">
+        <div  id='11' class="alert alert-success" role='alert' style='width:100%;margin-bottom:0;'>
+          <span class="text-center" style="width:10%;margin-top:1%;"><strong>11AM</strong></span>
+          <input type="text" class="form-control" id="usr" style="width:70%;">
+          <p index='11' class="btn btn-danger" style="width:10%;margin-top:1%;">Save</p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:0;">
+        <div  id='12' class="alert alert-success" role='alert' style='width:100%;margin-bottom:0;'>
+          <span class="text-center" style="width:10%;margin-top:1%;"><strong>12PM</strong></span>
+          <input type="text" class="form-control" id="usr" style="width:70%;">
+          <p index='12' class="btn btn-danger" style="width:10%;margin-top:1%;">Save</p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:0;">
+        <div  id='13' class="alert alert-success" role='alert' style='width:100%;margin-bottom:0;'>
+          <span class="text-center" style="width:10%;margin-top:1%;"><strong>13PM</strong></span>
+          <input type="text" class="form-control" id="usr" style="width:70%;">
+          <p index='13' class="btn btn-danger" style="width:10%;margin-top:1%;">Save</p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:0;">
+        <div  id='14' class="alert alert-success" role='alert' style='width:100%;margin-bottom:0;'>
+          <span class="text-center" style="width:10%;margin-top:1%;"><strong>14PM</strong></span>
+          <input type="text" class="form-control" id="usr" style="width:70%;">
+          <p index='14' class="btn btn-danger" style="width:10%;margin-top:1%;">Save</p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:0;">
+        <div  id='15' class="alert alert-success" role='alert' style='width:100%;margin-bottom:0;'>
+          <span class="text-center" style="width:10%;margin-top:1%;"><strong>15PM</strong></span>
+          <input type="text" class="form-control" id="usr" style="width:70%;">
+          <p index='15' class="btn btn-danger" style="width:10%;margin-top:1%;">Save</p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:0;">
+        <div  id='16' class="alert alert-success" role='alert' style='width:100%;margin-bottom:0;'>
+          <span class="text-center" style="width:10%;margin-top:1%;"><strong>16PM</strong></span>
+          <input type="text" class="form-control" id="usr" style="width:70%;">
+          <p index='16' class="btn btn-danger" style="width:10%;margin-top:1%;">Save</p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:0;">
+        <div  id='17' class="alert alert-success" role='alert' style='width:100%;margin-bottom:0;'>
+          <span class="text-center" style="width:10%;margin-top:1%;"><strong>17PM</strong></span>
+          <input type="text" class="form-control" id="usr" style="width:70%;">
+          <p index='17' class="btn btn-danger" style="width:10%;margin-top:1%;">Save</p>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/core-home.js"></script>
+  <script>
+
+    console.log(moment().format());
+
+  </script>
+</body>
+
+</html>
